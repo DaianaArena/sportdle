@@ -16,6 +16,8 @@ const config: Config = {
     },
   },
   plugins: [require("daisyui")],
-  darkMode: "class",
+  daisyui: {
+    themes: ["light", "dark", "cupcake", "synthwave", "retro",  "cyberpunk"],
+  },
 }
 export default config

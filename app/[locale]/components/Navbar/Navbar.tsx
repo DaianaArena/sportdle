@@ -29,13 +29,16 @@ const Navbar = () => {
                     🇪🇸
                   </Link>
                 </nav>
+                
                 <div className=" w-52 flex justify-center md:justify-end">
                   <ThemeSwitcher />
                 </div>
-                
               </div>
             </header>
   );
 };
 
 export default Navbar;
+/*
+
+*/
