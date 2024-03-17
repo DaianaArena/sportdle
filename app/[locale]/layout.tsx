@@ -42,7 +42,7 @@ export default async function LocaleLayout({ children, params: { locale } }: Loc
   }
 
   return (
-    <html lang={locale} data-theme="dark">
+    <html lang={locale} data-theme="synthwave">
       <head>
         <title>Ultimate frontend boilerplate</title>
       </head>

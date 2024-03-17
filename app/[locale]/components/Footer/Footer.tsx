@@ -6,6 +6,9 @@ import { TbWorldCode } from "react-icons/tb";
 import { SiBuymeacoffee } from "react-icons/si";
 
 const Footer = ( ) => {
+
+  let year = new Date().getFullYear()
+
   return (
     <footer className="text-gray-400  body-font">
               <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
@@ -15,7 +18,7 @@ const Footer = ( ) => {
                   </span>
                 </a>
                 <p className="text-sm text-gray-800 dark:text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
-                  © 2023 —
+                  © {year} —
                   <a
                     href="http://daianaarena.vercel.app/"
                     className="text-gray-800 dark:text-gray-400 ml-1"
