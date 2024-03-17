@@ -23,6 +23,7 @@ export default function Index() {
               transition={{ duration: 0.5 }}
             >
               {t("title")}
+              
             </motion.h1>
             <Header message={t("header")}></Header>
 
@@ -35,15 +36,13 @@ export default function Index() {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
                   >
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
                 </a>
+                <button className="btn btn-warning">Warning</button>
             <div className="flex mt-6 justify-center">
               <div className="w-16 h-1 rounded-full bg-pink-500 inline-flex"></div>
             </div>
