@@ -13,15 +13,38 @@ const Navbar = () => {
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
+      <li className="  w-52  flex flex-row items-center text-base justify-center"><a>About us</a></li>
+      <li className="  w-52  flex flex-row items-center text-base justify-center">
+        <details className="w-52 ">
+          <summary>Games</summary>
+          <ul className="w-36">
+            <li><a>Speedle</a></li>
+            <li className="flex flex-row justify-between items-center">
+            <div className="tooltip tooltip-right tooltip-accent" data-tip="Soon!">
+            <Link href="/futboldle"  >Futboldle</Link>
+            </div>
+              </li>
           </ul>
-        </li>
-        <li><a>Item 3</a></li>
+        </details>
+      </li>
+      <li className="  w-52  flex flex-row items-center text-base justify-center">
+                  <Link
+                    className="mx-5 hover:text-pink-700 dark:text-white"
+                    href="/"
+                    locale="en"
+                  >
+                    🇺🇸
+                  </Link>
+                  <p className="">|</p>
+                  <Link
+                    className=" hover:text-pink-700 dark:text-white"
+                    href="/"
+                    locale="es"
+                  >
+                    🇪🇸
+                  </Link>
+                </li>
+                
       </ul>
     </div>
     <Link
