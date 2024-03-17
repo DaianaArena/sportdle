@@ -53,7 +53,7 @@ const Navbar = () => {
       </ul>
     </div>
     <Link
-      className="btn btn-ghost text-xl"
+      className="btn btn-ghost text-xl text-primary"
       href="/"
     >
       SPORTLE
